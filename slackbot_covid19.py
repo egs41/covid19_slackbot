@@ -10,7 +10,7 @@ def post_message(token, channel, text):
     )
     print(response)
 
-myToken='xoxb-111'
+myToken='xoxb-'
 
 def run():
     target = urllib.request.urlopen("http://ncov.mohw.go.kr/")
